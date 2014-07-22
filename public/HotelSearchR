@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OTA_HotelSearchRQ xmlns="http://www.opentravel.org/OTA/2003/05" EchoToken="ABC123"
+TimeStamp="2012-01-01T19:00:00" PrimaryLangID="en-us"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.opentravel.org/OTA/2003/05 ../Schemas/OTA_HotelSearchRQ.xsd"
+Version="6.000">
+  <POS>
+    <Source ISOCountry="US" ISOCurrency="USD">
+      <RequestorID Type="4" ID="7777777" ID_Context="MyHotel" />
+    </Source>
+  </POS>
+  <Criteria>
+    <Criterion>
+      <Position Latitude="%LAT%" Longitude="%LONG%" />
+      <Address>
+        <CityName>Empire</CityName>
+        <CountryName Code="US" />
+      </Address>
+	<RefPoint Name="Empire, MI, USA" />
+      <HotelRef HotelName="Inn" />
+      <Radius Distance="5" DistanceMeasure="M" UnitOfMeasureCode="2" />
+      <StayDateRange Start="2012-08-15" End="2010-08-17" />
+    </Criterion>
+  </Criteria>
+</OTA_HotelSearchRQ>
+

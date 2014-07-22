@@ -1,0 +1,14 @@
+{
+  "name": "hackDayServer",
+  "description": "Server",
+  "version": "0.0.1",
+  "author": "team L",
+  "dependencies": {
+	"express": "4.6.x",
+	"xml": "0.x.x"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.x"
+  }
+}
