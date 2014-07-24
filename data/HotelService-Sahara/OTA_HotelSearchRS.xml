@@ -8,8 +8,7 @@
 		<Property HotelCityCode="SHR" HotelCode="200" HotelName="Hot-el">
 			<Address>Sand street</Address>
 			<TPA_Extensions>
-				<HotelImageURI>/sand1.jpg</HotelImageURI>
-				<HotelImageURI>/sand2.jpg</HotelImageURI>
+				<HotelImageURI>http://misc.krezac.net/hackday/sand1.jpg</HotelImageURI>
 				<StarRating>4</StarRating>
 			</TPA_Extensions>
 			<Position Latitude="21.175041" Longitude="18.844416" />
