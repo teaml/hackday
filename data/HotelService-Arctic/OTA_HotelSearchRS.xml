@@ -8,8 +8,8 @@
 		<Property HotelCityCode="ART" HotelCode="100" HotelName="Ice Bear Inn">
 			<Address>Skii avenue</Address>
 			<TPA_Extensions>
-				<HotelImageURI>/ice.jpg</HotelImageURI>
-				<HotelImageURI>ice2.jpg</HotelImageURI>
+				<HotelImageURI>http://misc.krezac.net/hackday/ice.jpg</HotelImageURI>
+				<HotelImageURI>http://misc.krezac.net/hackday/ice2.jpg</HotelImageURI>
 				<StarRating>4</StarRating>
 			</TPA_Extensions>
 			<Position Latitude="-73.856401" Longitude="39.322932" />
@@ -17,7 +17,7 @@
 		<Property HotelCityCode="ART" HotelCode="101" HotelName="Arcticon">
 			<Address>Polar Bear broadway</Address>
 			<TPA_Extensions>
-				<HotelImageURI>/ice3.jpg</HotelImageURI>
+				<HotelImageURI>http://misc.krezac.net/hackday/ice3.jpg</HotelImageURI>
 				<StarRating>4.5</StarRating>
 			</TPA_Extensions>
 			<Position Latitude="-73.856664" Longitude="39.321891" />
