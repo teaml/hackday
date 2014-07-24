@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<OTA_HotelSearchRS EchoToken="" Version="6.000" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source />
+	</POS>
+	<Success />
+	<Properties>
+		<Property HotelCityCode="MRS" HotelCode="123" HotelName="Hotel Mars for hackers">
+			<Address>Mars Avenue</Address>
+			<TPA_Extensions>
+				<HotelImageURI>/Hotels_map.jpg</HotelImageURI>
+				<HotelImageURI>hepper-pod-pet-bed.jpeg</HotelImageURI>
+				<StarRating>12</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.3144277" Longitude="149.1296043" />
+		</Property>
+		<Property HotelCityCode="MRS" HotelCode="124" HotelName="UFO Hotel">
+			<Address>Mars broadway</Address>
+			<TPA_Extensions>
+				<HotelImageURI>/planet.jpg</HotelImageURI>
+				<StarRating>4.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.27799" Longitude="149.1289865" />
+		</Property>
+		<Property HotelCityCode="MRS" HotelCode="125" HotelName="Allien In">
+			<Address>Desert hotel</Address>
+			<TPA_Extensions>
+				<HotelImageURI>/desert.jpg</HotelImageURI>
+				<StarRating>3.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.315587" Longitude="149.128012" />
+		</Property>
+		
+	</Properties>
+</OTA_HotelSearchRS>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<OTA_HotelSearchRS EchoToken="" Version="6.000" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source />
+	</POS>
+	<Success />
+	<Properties>
+		<Property HotelCityCode="SHR" HotelCode="200" HotelName="Hot-el">
+			<Address>Sand street</Address>
+			<TPA_Extensions>
+				<HotelImageURI>http://misc.krezac.net/hackday/sand1.jpg</HotelImageURI>
+<<<<<<< HEAD
+=======
+				<HotelImageURI>/sand2.jpg</HotelImageURI>
+>>>>>>> 6265fff0ec98334aa591f6a8beadbc458a4af96d
+				<StarRating>4</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="21.175041" Longitude="18.844416" />
+		</Property>
+		<Property HotelCityCode="SHR" HotelCode="201" HotelName="Sand Storm">
+			<Address>3rd Dune</Address>
+			<TPA_Extensions>
+				<HotelImageURI>http://misc.krezac.net/hackday/sand2.jpg</HotelImageURI>
+				<StarRating>4.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="21.175041" Longitude="18.844416" />
+		</Property>
+	
+		
+	</Properties>
+</OTA_HotelSearchRS>

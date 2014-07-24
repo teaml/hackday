@@ -1,0 +1,11 @@
+<OTA_HotelBookingRuleRQ Version="1" PrimaryLangID="EN" TimeStamp="2014-07-24T08:11:00" EchoToken="HCL" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source ISOCountry="Chad" ISOCurrency="USD">
+			<RequestorID ID="53" ID_Context="Concur" Type="4" />
+			<RequestorID ID="87514" ID_Context="Concur" Type="21" />
+		</Source>
+	</POS>
+	<RuleMessage HotelCode="200">
+		<StatusApplication Start="2014-08-20" End="2014-08-21" RatePlanCode="1243_1" />
+	</RuleMessage>
+</OTA_HotelBookingRuleRQ>
