@@ -5,15 +5,19 @@
 	"responseFile": "data/HotelService-THN-Canberra/OTA_HotelSearchRS.xml",
 	"replacers": [
 		{
-			"type": "XPathReplace",
-			"source": "/OTA_HotelSearchRQ/Criteria/Criterion/Position/@Latitude",
-			"destination": "/OTA_HotelSearchRS/Properties/Property/Position/@Latitude",
+			"type": "XPathReplacer",
+			"sourceNamespaces" : { "ns1" : "http://www.opentravel.org/OTA/2003/05"},
+			"destinationNamespaces" : { "ns1" : "http://www.opentravel.org/OTA/2003/05"},
+			"source": "/ns1:OTA_HotelSearchRQ/ns1:Criteria/ns1:Criterion/ns1:Position/@Latitude",
+			"destination": "/ns1:OTA_HotelSearchRS/ns1:Properties/ns1:Property/ns1:Position/@Latitude",
 			"replaceAll": "true"
 		},
 		{
-			"type": "XPathReplace",
-			"source": "/OTA_HotelSearchRQ/Criteria/Criterion/Position/@Longitude",
-			"destination": "/OTA_HotelSearchRS/Properties/Property/Position/@Longitude",
+			"type": "XPathReplacer",
+			"sourceNamespaces" : { "ns1" : "http://www.opentravel.org/OTA/2003/05"},
+			"destinationNamespaces" : { "ns1" : "http://www.opentravel.org/OTA/2003/05"},
+			"source": "/ns1:OTA_HotelSearchRQ/ns1:Criteria/ns1:Criterion/ns1:Position/@Longitude",
+			"destination": "/ns1:OTA_HotelSearchRS/ns1:Properties/ns1:Property/ns1:Position/@Longitude",
 			"replaceAll": "true"
 		}
 	]
