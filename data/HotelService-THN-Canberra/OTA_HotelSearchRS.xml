@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<OTA_HotelSearchRS EchoToken="" Version="6.000" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source />
+	</POS>
+	<Success />
+	<Properties>
+		<Property HotelCityCode="CBR" HotelCode="147" HotelName="Rydges Capital Hill Canberra">
+			<Address>Cnr National Circuit &amp; Canberra Ave Forrest ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/147_20130115_rydges_capital_hill.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/2056/147_20131104_Superior Queen.JPG</HotelImageURI>
+				<StarRating>4</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.3144277" Longitude="149.1296043" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="219" HotelName="Novotel Canberra">
+			<Address>65 Northbourne Avenue Canberra ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/219_20130306_Novotel_Canberra_-_Room.jpg</HotelImageURI>
+				<StarRating>4.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.27799" Longitude="149.1289865" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="380" HotelName="Forrest Hotel &amp; Apartments">
+			<Address>30 National Circuit Forrest ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/380_20130122_forrest_hotel_&amp;_apartments.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/380_20130122_forrest_hotel_&amp;_apartments2.jpg</HotelImageURI>
+				<StarRating>3.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.315587" Longitude="149.128012" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="545" HotelName="Pinnacle Apartments">
+			<Address>11 Ovens Street Kingston ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/545_20130109_pinnacle_apts.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/545_20130109_pinnacle_apts2.jpg</HotelImageURI>
+				<StarRating>4</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.318048" Longitude="149.139912" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="697" HotelName="Pavilion on Northbourne">
+			<Address>242 Northbourne Avenue Dickson ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/697_20121218_pavillion_on_northbourne.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/697_20121218_pavillion_on_northbourne2.jpg</HotelImageURI>
+				<StarRating>4.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.258993" Longitude="149.133213" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="1012" HotelName="Best Western Motel Monaro">
+			<Address>27 Dawes Street Kingston ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1012_20131118_motel monaro.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1012_20131118_motel monaro twin.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1012_20140402_1.jpg</HotelImageURI>
+				<StarRating>3.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.317241" Longitude="149.143252" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="1130" HotelName="Quest Canberra">
+			<Address>28 West Row Canberra ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1130_20140721_prop-img-full-h6fkwrbn-1iunjwmybgoow.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1130_20140721_prop-img-full-h6fkz3oa-1k82c0w2tetxc.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1130_20140721_prop-img-full-h6fl3aou-1t998dmxy1bsw.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1130_20140721_prop-img-full-hso153d5-svvldwqaysqo.jpg</HotelImageURI>
+				<StarRating />
+			</TPA_Extensions>
+			<Position Latitude="-35.27912" Longitude="149.127714" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="1243" HotelName="University House">
+			<Address>1 Balmain Crescent Acton ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1243_20130114_University_house3.jpg</HotelImageURI>
+				<StarRating>3.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.284583" Longitude="149.118934" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="1262" HotelName="Kingston Terrace Serviced Apartments">
+			<Address>16 Eyre Street Kingston ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1262_20130108_kingston_terrace.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1262_20130108_kingston_terrace2.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1262_20140402_1.jpg</HotelImageURI>
+				<StarRating>4</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.3226368" Longitude="149.1404661" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="1306" HotelName="Best Western Tall Trees">
+			<Address>21 Stephen Street Ainslie ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1306_20130108_Best_Western_Tall_Trees.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1306_20130108_Best_Western_Tall_Trees2.jpg</HotelImageURI>
+				<StarRating>4</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.258073" Longitude="149.143139" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="1458" HotelName="Diplomat Hotel">
+			<Address>Cnr Canberra Avenue &amp; Hely Street Griffith ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1458_20140306_1.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1458_20140306_2.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1458_20140306_3.jpg</HotelImageURI>
+				<StarRating>4</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.3228975" Longitude="149.1478139" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="2117" HotelName="Clifton Suites on Northbourne">
+			<Address>100 Northbourne Avenue Canberra ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/2117_20130109_quality_suites_clifton.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/2117_20130109_quality_suites_clifton2.jpg</HotelImageURI>
+				<StarRating>4.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.271765" Longitude="149.131038" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="3226" HotelName="Hotel Realm">
+			<Address>18 National Circuit Barton ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/3226_20140306_1.jpg</HotelImageURI>
+				<StarRating>5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.311776" Longitude="149.132549" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="3837" HotelName="Peppers Gallery Canberra (was Diamant)">
+			<Address>15 Edinburgh Avenue Canberra ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/3837_20121207_diamant.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/3837_20121207_diamant_hotel.jpg</HotelImageURI>
+				<StarRating />
+			</TPA_Extensions>
+			<Position Latitude="-35.2848497" Longitude="149.1240027" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="5329" HotelName="Aria Hotel">
+			<Address>45 Dooring Street Dickson ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/5329_20121211_aria_hotel_room.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/5329_20121211_1 bedrroom.jpg</HotelImageURI>
+				<StarRating />
+			</TPA_Extensions>
+			<Position Latitude="-35.2588221" Longitude="149.133818" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="5755" HotelName="Burbury Hotel">
+			<Address>1 Burbury Close Barton ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/5755_20140402_1.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/5755_20140402_2.jpg</HotelImageURI>
+				<StarRating>4.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.3119901" Longitude="149.1336292" />
+		</Property>
+		<Property HotelCityCode="CBR" HotelCode="6200" HotelName="East Hotel Canberra">
+			<Address>69 Canberra Avenue Kingston ACT</Address>
+			<TPA_Extensions>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/6200_20121219_Luxe Studio.jpg</HotelImageURI>
+				<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/6200_20121219_East Apartment.jpg</HotelImageURI>
+				<StarRating>4.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-35.3195896" Longitude="149.1370382" />
+		</Property>
+	</Properties>
+</OTA_HotelSearchRS>

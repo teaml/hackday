@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<OTA_HotelBookingRuleRS>
+	<Success />
+	<RuleMessage HotelCityCode="CBR" HotelCode="1243" HotelName="University House">
+		<StatusApplication End="2014-08-21" Start="2014-08-20">
+			<RoomRates>
+				<RoomRate Amount="153.00" CurrencyCode="AUD" Start="2014-08-20" />
+			</RoomRates>
+		</StatusApplication>
+	</RuleMessage>
+	<GuestCounts>
+		<GuestCount AgeQualifyingCode="10" Count="1" />
+	</GuestCounts>
+	<BookingRules>
+		<BookingRule>
+			<CancelPenalties>
+				<CancelPenalty>
+					<Deadline AbsoluteDeadline="14:00:00" OffsetDropTime="BeforeArrival" OffsetTimeUnit="Day" OffsetUnitMultiplier="1" />
+				</CancelPenalty>
+			</CancelPenalties>
+		</BookingRule>
+	</BookingRules>
+</OTA_HotelBookingRuleRS>

@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<OTA_HotelAvailRS EchoToken="" Version="6.000" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source />
+	</POS>
+	<Success />
+	<RoomStays>
+		<RoomStay>
+			<RoomTypes>
+				<RoomType RoomTypeCode="1">
+					<RoomDescription Name="Standard Room" />
+				</RoomType>
+			</RoomTypes>
+			<RatePlans>
+				<RatePlan AvailabilityStatus="AvailableForSale" AvailableQuantity="10" RatePlanCode="219_1" />
+			</RatePlans>
+			<RoomRates>
+				<RoomRate RatePlanCode="219_1" RoomTypeCode="1">
+					<Rates>
+						<Rate EffectiveDate="2014-08-20" ExpireDate="2014-08-20" RoomPricingType="Per night">
+							<Base AmountAfterTax="195.00" AmountBeforeTax="177.27" CurrencyCode="AUD">
+								<Taxes>
+									<Tax Amount="17.73" Code="GST" CurrencyCode="AUD" />
+								</Taxes>
+							</Base>
+						</Rate>
+					</Rates>
+				</RoomRate>
+			</RoomRates>
+			<BasicPropertyInfo HotelCityCode="CBR" HotelCode="219" HotelName="Novotel Canberra">
+				<VendorMessages>
+					<VendorMessage InfoType="1">
+						<SubSection SubTitle="Description">
+							<Paragraph>
+								<Text TextFormat="HTML">&lt;table width=&quot;80%&quot;>&lt;tr>&lt;td width=&quot;70%&quot;>&lt;p>&lt;strong>Hotel Facilities:&lt;br />&lt;/strong>- 24 hour reception desk&lt;br />- 24 hour room service&lt;br />- Off street parking available ($15.00 per day)&lt;br />- Concierge&lt;br />- Licensed Restaurant &amp;amp; Bar on site&lt;br />- Business centre&lt;br />- Heated indoor swimming pool&lt;br />- Sauna &amp;amp; Spa&lt;br />- Gymnasium&lt;br />- Laundry service&lt;/p>&lt;p>&lt;strong>Room Facilities - Standard Room:&lt;br />&lt;/strong>- 1 x Queen bed or 2 x Double beds&lt;br />- Air conditoning&lt;br />- Mini Bar&lt;br />- Hairdryer&lt;br />- Iron &amp;amp; Ironing board&lt;br />- Flat screen television (inc Foxtel)&lt;br />- Pay per view movies&lt;br />- Tea &amp;amp; Coffee making facilities&lt;br />- In room amenities&lt;br />- Broadband internet access&lt;br />- Working desk&lt;/p>&lt;/td>&lt;td width=&quot;30%&quot;>&lt;p align=&quot;center&quot;>&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/novotel_canberra2.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;br />&lt;br />&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/Novotel_Canberra_-_Room.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;/p>&lt;/td>&lt;/tr>&lt;/table></Text>
+							</Paragraph>
+						</SubSection>
+					</VendorMessage>
+				</VendorMessages>
+				<Position Latitude="-35.27799" Longitude="149.1289865" />
+				<Address>
+					<StreetNmbr>65 Northbourne Avenue</StreetNmbr>
+					<CityName>Canberra</CityName>
+					<PostalCode>2600</PostalCode>
+					<StateProv>ACT</StateProv>
+				</Address>
+				<Award Provider="TheHotelNetwork" Rating="NotPreferred" />
+				<Award Provider="AAA" Rating="4.5" />
+				<ContactNumbers>
+					<ContactNumber PhoneNumber="02 6245 5000" PhoneTechType="1" />
+					<ContactNumber PhoneNumber="02 6245 5100" PhoneTechType="3" />
+				</ContactNumbers>
+				<TPA_Extensions>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/219_20130306_Novotel_Canberra_-_Room.jpg</HotelImageURI>
+					<StarRating>4.5</StarRating>
+				</TPA_Extensions>
+			</BasicPropertyInfo>
+		</RoomStay>
+		<RoomStay>
+			<RoomTypes>
+				<RoomType RoomTypeCode="1">
+					<RoomDescription Name="Studio" />
+				</RoomType>
+				<RoomType RoomTypeCode="2">
+					<RoomDescription Name="1 Bedroom " />
+				</RoomType>
+				<RoomType RoomTypeCode="3">
+					<RoomDescription Name="1 Bedroom Executive" />
+				</RoomType>
+			</RoomTypes>
+			<RatePlans>
+				<RatePlan AvailabilityStatus="AvailableForSale" AvailableQuantity="4" RatePlanCode="1130_1" />
+				<RatePlan AvailabilityStatus="AvailableForSale" AvailableQuantity="4" RatePlanCode="1130_2" />
+				<RatePlan AvailabilityStatus="AvailableForSale" AvailableQuantity="8" RatePlanCode="1130_3" />
+			</RatePlans>
+			<RoomRates>
+				<RoomRate RatePlanCode="1130_1" RoomTypeCode="1">
+					<Rates>
+						<Rate EffectiveDate="2014-08-20" ExpireDate="2014-08-20" RoomPricingType="Per night">
+							<Base AmountAfterTax="193.80" AmountBeforeTax="176.18" CurrencyCode="AUD">
+								<Taxes>
+									<Tax Amount="17.62" Code="GST" CurrencyCode="AUD" />
+								</Taxes>
+							</Base>
+						</Rate>
+					</Rates>
+				</RoomRate>
+				<RoomRate RatePlanCode="1130_2" RoomTypeCode="2">
+					<Rates>
+						<Rate EffectiveDate="2014-08-20" ExpireDate="2014-08-20" RoomPricingType="Per night">
+							<Base AmountAfterTax="212.80" AmountBeforeTax="193.45" CurrencyCode="AUD">
+								<Taxes>
+									<Tax Amount="19.35" Code="GST" CurrencyCode="AUD" />
+								</Taxes>
+							</Base>
+						</Rate>
+					</Rates>
+				</RoomRate>
+				<RoomRate RatePlanCode="1130_3" RoomTypeCode="3">
+					<Rates>
+						<Rate EffectiveDate="2014-08-20" ExpireDate="2014-08-20" RoomPricingType="Per night">
+							<Base AmountAfterTax="222.30" AmountBeforeTax="202.09" CurrencyCode="AUD">
+								<Taxes>
+									<Tax Amount="20.21" Code="GST" CurrencyCode="AUD" />
+								</Taxes>
+							</Base>
+						</Rate>
+					</Rates>
+				</RoomRate>
+			</RoomRates>
+			<BasicPropertyInfo HotelCityCode="CBR" HotelCode="1130" HotelName="Quest Canberra">
+				<VendorMessages>
+					<VendorMessage InfoType="1">
+						<SubSection SubTitle="Description">
+							<Paragraph>
+								<Text TextFormat="HTML">&lt;table width=&quot;80%&quot;>&lt;tr>&lt;td width=&quot;70%&quot;>&lt;p>&lt;strong>Hotel Facilities:&lt;br />&lt;/strong>- Licensed restauants &amp; bars on site&lt;br />- Local restaurant charge back facilitiy available&lt;br />- Limited off street parking available ($12.00 per day)&lt;br />- Business Centre&lt;br />- Non smoking floors&lt;br />- Dry Cleaning service&lt;/p>&lt;p>&lt;strong>Room Facilities - Studio Apartment:&lt;br />&lt;/strong>- 1&amp;nbsp;x Queen bed&lt;br />- kitchenette&amp;nbsp;facilities&lt;br />- Ensuite bathroom&lt;br />- Tea &amp; Coffee making facilities&lt;br />- Iron &amp; Ironing board&lt;br />- Hairdryer&lt;br />- Air conditioning&lt;br />- In house movies&lt;br />&lt;br />&lt;strong>Room Facilities - One Bedroom Apartment:&lt;/strong>&lt;br />- Same facilities as Studio Apartment&lt;br />- Seperate Lounge / Dining area&lt;br />- Fully equipped kitchen facilities&lt;br />&lt;/p>&lt;/td>&lt;td width=&quot;70%&quot;>&lt;p align=&quot;center&quot;>&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/quest_canberra2.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;br />&lt;br />&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/quest_canberra.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;/p>&lt;/td>&lt;/tr>&lt;/table></Text>
+							</Paragraph>
+						</SubSection>
+					</VendorMessage>
+				</VendorMessages>
+				<Position Latitude="-35.27912" Longitude="149.127714" />
+				<Address>
+					<StreetNmbr>28 West Row</StreetNmbr>
+					<CityName>Canberra</CityName>
+					<PostalCode>2601</PostalCode>
+					<StateProv>ACT</StateProv>
+				</Address>
+				<Award Provider="TheHotelNetwork" Rating="NotPreferred" />
+				<Award Provider="AAA" Rating="4" />
+				<ContactNumbers>
+					<ContactNumber PhoneNumber="02 6243 2222" PhoneTechType="1" />
+					<ContactNumber PhoneNumber="02 6243 2288" PhoneTechType="3" />
+				</ContactNumbers>
+				<TPA_Extensions>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1130_20140721_prop-img-full-h6fkwrbn-1iunjwmybgoow.jpg</HotelImageURI>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1130_20140721_prop-img-full-h6fkz3oa-1k82c0w2tetxc.jpg</HotelImageURI>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1130_20140721_prop-img-full-h6fl3aou-1t998dmxy1bsw.jpg</HotelImageURI>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1130_20140721_prop-img-full-hso153d5-svvldwqaysqo.jpg</HotelImageURI>
+					<StarRating />
+				</TPA_Extensions>
+			</BasicPropertyInfo>
+		</RoomStay>
+		<RoomStay>
+			<RoomTypes>
+				<RoomType RoomTypeCode="1">
+					<RoomDescription Name="Twin Room - 2 Singles" />
+				</RoomType>
+				<RoomType RoomTypeCode="2">
+					<RoomDescription Name="Queen Superior Room" />
+				</RoomType>
+			</RoomTypes>
+			<RatePlans>
+				<RatePlan AvailabilityStatus="AvailableForSale" AvailableQuantity="2" RatePlanCode="1243_1" />
+			</RatePlans>
+			<RoomRates>
+				<RoomRate RatePlanCode="1243_1" RoomTypeCode="1">
+					<Rates>
+						<Rate EffectiveDate="2014-08-20" ExpireDate="2014-08-20" RoomPricingType="Per night">
+							<Base AmountAfterTax="153.00" AmountBeforeTax="139.09" CurrencyCode="AUD">
+								<Taxes>
+									<Tax Amount="13.91" Code="GST" CurrencyCode="AUD" />
+								</Taxes>
+							</Base>
+						</Rate>
+					</Rates>
+				</RoomRate>
+			</RoomRates>
+			<BasicPropertyInfo HotelCityCode="CBR" HotelCode="1243" HotelName="University House">
+				<VendorMessages>
+					<VendorMessage InfoType="1">
+						<SubSection SubTitle="Description">
+							<Paragraph>
+								<Text TextFormat="HTML">&lt;table width=&quot;80%&quot;>&lt;tr>&lt;td width=&quot;70%&quot;>&lt;p>&lt;strong>Hotel Facilities:&lt;/strong>&lt;br />- Restaurant on site (Dinner available daily - bookings advised)&lt;br />- Licensed Bar &amp;amp; Cafe onsite (Breakfast available daily)&lt;br />- Conference facilities&lt;br />- Off street parking available&lt;br />- Guest laundry&lt;/p>&lt;p>&lt;strong>Room Facilities:&lt;br />&lt;/strong>- Queen or 2 x single beds&lt;br />- Television&lt;br />- Tea &amp;amp; Coffee making facilities&lt;br />- Mini Bar&lt;br />- Air conditioning&lt;br />- Central heating&lt;br />- Hairdryer&lt;br />- Balcony&lt;br />- Writing desk&lt;br />- High speed wireless internet access&lt;br />- Standard modern internet access&lt;br />- In floor bathroom heating&lt;br />- Direct dial telephones&lt;br />- Security key card access&lt;/p>&lt;/td>&lt;td width=&quot;30%&quot;>&lt;p align=&quot;center&quot;>&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/University_house2.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;br />&lt;br />&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/University_house3.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;/p>&lt;/td>&lt;/tr>&lt;/table></Text>
+							</Paragraph>
+						</SubSection>
+					</VendorMessage>
+				</VendorMessages>
+				<Position Latitude="-35.284583" Longitude="149.118934" />
+				<Address>
+					<StreetNmbr>1 Balmain Crescent</StreetNmbr>
+					<CityName>Acton</CityName>
+					<PostalCode>2601</PostalCode>
+					<StateProv>ACT</StateProv>
+				</Address>
+				<Award Provider="TheHotelNetwork" Rating="NotPreferred" />
+				<Award Provider="AAA" Rating="3.5" />
+				<ContactNumbers>
+					<ContactNumber PhoneNumber="02 6125 5211" PhoneTechType="1" />
+					<ContactNumber PhoneNumber="02 6125 5252" PhoneTechType="3" />
+				</ContactNumbers>
+				<TPA_Extensions>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/1243_20130114_University_house3.jpg</HotelImageURI>
+					<StarRating>3.5</StarRating>
+				</TPA_Extensions>
+			</BasicPropertyInfo>
+		</RoomStay>
+		<RoomStay>
+			<RoomTypes>
+				<RoomType RoomTypeCode="1">
+					<RoomDescription Name="One Bedroom Apartment" />
+				</RoomType>
+				<RoomType RoomTypeCode="2">
+					<RoomDescription Name="Two Bedroom Apartment (2 Bathrooms)" />
+				</RoomType>
+			</RoomTypes>
+			<RatePlans>
+				<RatePlan AvailabilityStatus="AvailableForSale" AvailableQuantity="10" RatePlanCode="2117_1" />
+				<RatePlan AvailabilityStatus="AvailableForSale" AvailableQuantity="10" RatePlanCode="2117_2" />
+			</RatePlans>
+			<RoomRates>
+				<RoomRate RatePlanCode="2117_1" RoomTypeCode="1">
+					<Rates>
+						<Rate EffectiveDate="2014-08-20" ExpireDate="2014-08-20" RoomPricingType="Per night">
+							<Base AmountAfterTax="224.00" AmountBeforeTax="203.64" CurrencyCode="AUD">
+								<Taxes>
+									<Tax Amount="20.36" Code="GST" CurrencyCode="AUD" />
+								</Taxes>
+							</Base>
+						</Rate>
+					</Rates>
+				</RoomRate>
+				<RoomRate RatePlanCode="2117_2" RoomTypeCode="2">
+					<Rates>
+						<Rate EffectiveDate="2014-08-20" ExpireDate="2014-08-20" RoomPricingType="Per night">
+							<Base AmountAfterTax="294.00" AmountBeforeTax="267.27" CurrencyCode="AUD">
+								<Taxes>
+									<Tax Amount="26.73" Code="GST" CurrencyCode="AUD" />
+								</Taxes>
+							</Base>
+						</Rate>
+					</Rates>
+				</RoomRate>
+			</RoomRates>
+			<BasicPropertyInfo HotelCityCode="CBR" HotelCode="2117" HotelName="Clifton Suites on Northbourne">
+				<VendorMessages>
+					<VendorMessage InfoType="1">
+						<SubSection SubTitle="Description">
+							<Paragraph>
+								<Text TextFormat="HTML">&lt;table width=&quot;80%&quot;>&lt;tr>&lt;td width=&quot;70%&quot;>&lt;strong>Hotel&amp;nbsp;Facilities:&amp;nbsp; Please note: &lt;span style=&quot;font-family: Arial; font-size: 10pt&quot;>Complimentary Shuttle to Airport via CBD and Parliamentary Triangle (Mon - Fri, drop off service only)&lt;/span> &lt;/strong>&lt;p>&lt;br />&lt;strong>-&lt;/strong> 24 hour reception desk and room service&lt;br />- Licensed Restaurant &amp;amp; Bar on site&lt;br />- Conference facilities&lt;br />- Gymnasium / fitness centre&lt;br />- Outdoor swimming pool&lt;/p>&lt;p>- Free daily newspaper&lt;/p>&lt;p class=&quot;headingMain&quot;>- Free secure undercover parking&lt;/p>&lt;p class=&quot;headingMain&quot;>&lt;strong>Room Facilities - One Bedroom Apartment:&lt;br />&lt;/strong>- Fully equipped kitchen facilities&lt;br />- Seperate lounge &amp;amp; dining area&lt;br />- Air conditioning&lt;br />- Broadband Internet&lt;br />- Television (inc Foxtel)&lt;br />- Private balcony&lt;br />- Washing Machine &amp;amp; Dryer&lt;br />- Iron &amp;amp; Ironing Board&lt;br />- Hairdryer&lt;br />&lt;br />&lt;strong>Room Facilities - Two Bedroom Apartment:&lt;/strong>&lt;br />- Same facilities as One Bedroom Apartment&lt;br />- 2 seperate bedrooms&lt;br />- 2 bathrooms&lt;/p>&lt;/td>&lt;td width=&quot;30%&quot;>&lt;p align=&quot;center&quot;>&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/quality_suites_clifton.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;br />&lt;br />&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/quality_suites_clifton2.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;/p>&lt;/td>&lt;/tr>&lt;/table></Text>
+							</Paragraph>
+						</SubSection>
+					</VendorMessage>
+				</VendorMessages>
+				<Position Latitude="-35.271765" Longitude="149.131038" />
+				<Address>
+					<StreetNmbr>100 Northbourne Avenue</StreetNmbr>
+					<CityName>Canberra</CityName>
+					<PostalCode>2600</PostalCode>
+					<StateProv>ACT</StateProv>
+				</Address>
+				<Award Provider="TheHotelNetwork" Rating="NotPreferred" />
+				<Award Provider="AAA" Rating="4.5" />
+				<ContactNumbers>
+					<ContactNumber PhoneNumber="02 6262 6266" PhoneTechType="1" />
+					<ContactNumber PhoneNumber="02 6203 8444" PhoneTechType="3" />
+				</ContactNumbers>
+				<TPA_Extensions>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/2117_20130109_quality_suites_clifton.jpg</HotelImageURI>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/2117_20130109_quality_suites_clifton2.jpg</HotelImageURI>
+					<StarRating>4.5</StarRating>
+				</TPA_Extensions>
+			</BasicPropertyInfo>
+		</RoomStay>
+		<RoomStay>
+			<RoomTypes>
+				<RoomType RoomTypeCode="0">
+					<RoomDescription Name="Deluxe" />
+				</RoomType>
+				<RoomType RoomTypeCode="1">
+					<RoomDescription Name="Deluxe Room" />
+				</RoomType>
+			</RoomTypes>
+			<RatePlans>
+				<RatePlan AvailabilityStatus="AvailableForSale" AvailableQuantity="6" RatePlanCode="3837_1" />
+			</RatePlans>
+			<RoomRates>
+				<RoomRate RatePlanCode="3837_1" RoomTypeCode="1">
+					<Rates>
+						<Rate EffectiveDate="2014-08-20" ExpireDate="2014-08-20" RoomPricingType="Per night">
+							<Base AmountAfterTax="189.00" AmountBeforeTax="171.82" CurrencyCode="AUD">
+								<Taxes>
+									<Tax Amount="17.18" Code="GST" CurrencyCode="AUD" />
+								</Taxes>
+							</Base>
+						</Rate>
+					</Rates>
+				</RoomRate>
+			</RoomRates>
+			<BasicPropertyInfo HotelCityCode="CBR" HotelCode="3837" HotelName="Peppers Gallery Canberra (was Diamant)">
+				<VendorMessages>
+					<VendorMessage InfoType="1">
+						<SubSection SubTitle="Description">
+							<Paragraph>
+								<Text TextFormat="HTML">&lt;table width=&quot;80%&quot;>&lt;tr>&lt;td width=&quot;70%&quot;>&lt;blockquote>&lt;p align=&quot;left&quot;>&lt;strong>Hotel Facilities:&lt;br />&lt;/strong>- Off street parking available ($20.00 per day)&lt;br />- Licensed Restaurant &amp;amp; Bars on site&lt;br />- 24 hour reception&lt;br />- Non smoking property&lt;br />&lt;br />&lt;strong>Room Facilities - Deluxe Room:&lt;br />&lt;/strong>- 1 x Queen size bed&lt;br />- Ensuite bathroom&lt;br />- Air conditioned&lt;br />- Telephone&lt;br />- Flat screen television&lt;br />- DVD&amp;nbsp;&amp;amp; CD player&lt;br />- In room safe&lt;br />- Broadband Internet access&lt;br />- Mini bar&lt;br />- Tea &amp;amp; Coffee making facilities&lt;br />- Work desk&amp;nbsp;&amp;amp; lamp&lt;/p>&lt;/blockquote>&lt;br />&lt;/td>&lt;td width=&quot;30%&quot;>&lt;/td>&lt;td width=&quot;30%&quot;>&lt;p align=&quot;center&quot;>&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/diamant_hotel2.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;br />&lt;br />&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/diamant_hotel.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;/p>&lt;/td>&lt;/tr>&lt;/table></Text>
+							</Paragraph>
+						</SubSection>
+					</VendorMessage>
+				</VendorMessages>
+				<Position Latitude="-35.2848497" Longitude="149.1240027" />
+				<Address>
+					<StreetNmbr>15 Edinburgh Avenue</StreetNmbr>
+					<CityName>Canberra</CityName>
+					<PostalCode>2601</PostalCode>
+					<StateProv>ACT</StateProv>
+				</Address>
+				<Award Provider="TheHotelNetwork" Rating="NotPreferred" />
+				<Award Provider="AAA" Rating="4" />
+				<ContactNumbers>
+					<ContactNumber PhoneNumber="02 6175 2222" PhoneTechType="1" />
+					<ContactNumber PhoneNumber="02 6175 2233" PhoneTechType="3" />
+				</ContactNumbers>
+				<TPA_Extensions>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/3837_20121207_diamant.jpg</HotelImageURI>
+					<HotelImageURI>https://secure.hotelnetwork.com.au/admin/__data/page/92/3837_20121207_diamant_hotel.jpg</HotelImageURI>
+					<StarRating />
+				</TPA_Extensions>
+			</BasicPropertyInfo>
+		</RoomStay>
+	</RoomStays>
+</OTA_HotelAvailRS>

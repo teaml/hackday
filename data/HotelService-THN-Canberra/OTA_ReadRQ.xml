@@ -1,0 +1,20 @@
+<OTA_ReadRQ Version="6.000" PrimaryLangID="" TimeStamp="2014-07-24T08:12:00" EchoToken="HCL" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source ISOCountry="US" ISOCurrency="AUD">
+			<RequestorID ID="53" ID_Context="Concur" Type="4" />
+			<RequestorID ID="87514" ID_Context="Concur" Type="21" />
+		</Source>
+	</POS>
+	<ReadRequests>
+		<ReadRequest>
+			<UniqueID ID="832953" Type="14" />
+			<Verification>
+				<PersonName>
+					<GivenName />
+					<Surname />
+				</PersonName>
+				<TelephoneInfo PhoneNumber="7038376100" />
+			</Verification>
+		</ReadRequest>
+	</ReadRequests>
+</OTA_ReadRQ>
