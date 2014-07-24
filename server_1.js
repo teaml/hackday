@@ -1,23 +1,20 @@
 var 	express    = require('express'),
 	http       = require('http'),
-	fs         = require('fs');
+	fs         = require('fs'),
+	eyes	   = require('eyes'),
+	config 	   = require('./config/sample.json');
+
 
 var app = express();
 var port = 8080;
 
-app.get('/:name', function(req, res) {
-	  var data = fs.readFileSync('data/HotelService-THN-Canberra/' + req.params.name + 'RS.xml').toString();
-	  res.end(data);
-	  console.log('data/HotelService-THN-Canberra/' + req.params.name + 'RS.xml');
-//	  console.log(data);
-});
 
 app.post('/:name', function(req, res) {
          // var data = fs.readFileSync('data/HotelService-THN-Canberra/' + req.params.name + 'RS.xml').toString();
          // res.end(data);
 	res.set('Content-Type', 'application/xml');
-        res.sendfile('data/HotelService-THN-Canberra/' + req.params.name + 'RS.xml');
-          console.log('data/HotelService-THN-Canberra/' + req.params.name + 'RS.xml');
+        res.sendfile(config['/'+req.params.name].responseFile);
+        console.log(config['/'+req.params.name].responseFile);
 //          console.log(data);
 });
 

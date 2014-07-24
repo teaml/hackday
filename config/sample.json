@@ -1,64 +1,56 @@
 {
-"endpoints" : [
-	{
-		"name": "search",
-		"urlPath": "/OTA_HotelSerch",
-		"requestFile": "data/HotelService-THN-Canberra/OTA_HotelSearchRQ.xml",	
-		"responseFile": "data/HotelService-THN-Canberra/OTA_HotelSearchRS.xml",
-		"replacers": [
-			{
-				"type": "XPathReplace",
-				"source": "/OTA_HotelSearchRQ/Criteria/Criterion/Position/@Latitude",
-				"destination": "/OTA_HotelSearchRS/Properties/Property/Position/@Latitude",
-				"replaceAll": "true"
-			},
-			{
-				"type": "XPathReplace",
-				"source": "/OTA_HotelSearchRQ/Criteria/Criterion/Position/@Longitude",
-				"destination": "/OTA_HotelSearchRS/Properties/Property/Position/@Longitude",
-				"replaceAll": "true"
-			}
-		]
-	},
-	{
-		"name": "availability",
-		"urlPath": "/OTA_HotelAvail",
-		"requestFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRQ.xml",	
-		"responseFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRS.xml",
-		"replacers": [
-		]
-	},
-	{
-		"name": "booking rule",
-		"urlPath": "/OTA_HotelBookingRule",
-		"requestFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRQ.xml",	
-		"responseFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRS.xml",
-		"replacers": [
-		]
-	},
-	{
-		"name": "availability",
-		"urlPath": "/OTA_HotelAvail",
-		"requestFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRQ.xml",	
-		"responseFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRS.xml",
-		"replacers": [
-		]
-	},
-	{
-		"name": "availability",
-		"urlPath": "/OTA_HotelAvail",
-		"requestFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRQ.xml",	
-		"responseFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRS.xml",
-		"replacers": [
-		]
-	},
-	{
-		"name": "availability",
-		"urlPath": "/OTA_HotelAvail",
-		"requestFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRQ.xml",	
-		"responseFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRS.xml",
-		"replacers": [
-		]
-	},
-]
+"/OTA_HotelSearch" : {
+	"name": "search",
+	"requestFile": "data/HotelService-THN-Canberra/OTA_HotelSearchRQ.xml",	
+	"responseFile": "data/HotelService-THN-Canberra/OTA_HotelSearchRS.xml",
+	"replacers": [
+		{
+			"type": "XPathReplace",
+			"source": "/OTA_HotelSearchRQ/Criteria/Criterion/Position/@Latitude",
+			"destination": "/OTA_HotelSearchRS/Properties/Property/Position/@Latitude",
+			"replaceAll": "true"
+		},
+		{
+			"type": "XPathReplace",
+			"source": "/OTA_HotelSearchRQ/Criteria/Criterion/Position/@Longitude",
+			"destination": "/OTA_HotelSearchRS/Properties/Property/Position/@Longitude",
+			"replaceAll": "true"
+		}
+	]
+},
+"/OTA_HotelAvail" : {
+	"name": "availability",
+	"requestFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRQ.xml",	
+	"responseFile": "data/HotelService-THN-Canberra/OTA_HotelAvailRS.xml",
+	"replacers": [
+	]
+},
+"/OTA_HotelBookingRule" : {
+	"name": "booking rule",
+	"requestFile": "data/HotelService-THN-Canberra/OTA_HotelRookingRuleRQ.xml",	
+	"responseFile": "data/HotelService-THN-Canberra/OTA_HotelBookingRuleRS.xml",
+	"replacers": [
+	]
+},
+"/OTA_HotelRes" : {
+	"name": "booking",
+	"requestFile": "data/HotelService-THN-Canberra/OTA_HotelresRQ.xml",	
+	"responseFile": "data/HotelService-THN-Canberra/OTA_HotelResRS_book.xml",
+	"replacers": [
+	]
+},
+"/OTA_Read" : {
+	"name": "itinerary",
+	"requestFile": "data/HotelService-THN-Canberra/OTA_ReadRQ.xml",	
+	"responseFile": "data/HotelService-THN-Canberra/OTA_HotelResRS_itin.xml",
+	"replacers": [
+	]
+},
+"/OTA_Cancel" : {
+	"name": "cancel",
+	"requestFile": "data/HotelService-THN-Canberra/OTA_CancelRQ.xml",	
+	"responseFile": "data/HotelService-THN-Canberra/OTA_CancelRS.xml",
+	"replacers": [
+	]
+}
 }
