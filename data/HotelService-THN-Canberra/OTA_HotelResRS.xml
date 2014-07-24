@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<OTA_HotelResRS EchoToken="" ResResponseType="Committed" Version="6.000" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source />
+	</POS>
+	<Success />
+	<HotelReservations>
+		<HotelReservation>
+			<RoomStays>
+				<RoomStay>
+					<RatePlans>
+						<RatePlan RatePlanCode="1243_1" />
+					</RatePlans>
+					<TimeSpan End="2014-08-21" Start="2014-08-20" />
+					<BasicPropertyInfo HotelCityCode="CBR" HotelCode="1243" HotelName="University House">
+						<VendorMessages>
+							<VendorMessage InfoType="1">
+								<SubSection SubTitle="Description">
+									<Paragraph>
+										<Text TextFormat="HTML">&lt;table width=&quot;80%&quot;>&lt;tr>&lt;td width=&quot;70%&quot;>&lt;p>&lt;strong>Hotel Facilities:&lt;/strong>&lt;br />- Restaurant on site (Dinner available daily - bookings advised)&lt;br />- Licensed Bar &amp;amp; Cafe onsite (Breakfast available daily)&lt;br />- Conference facilities&lt;br />- Off street parking available&lt;br />- Guest laundry&lt;/p>&lt;p>&lt;strong>Room Facilities:&lt;br />&lt;/strong>- Queen or 2 x single beds&lt;br />- Television&lt;br />- Tea &amp;amp; Coffee making facilities&lt;br />- Mini Bar&lt;br />- Air conditioning&lt;br />- Central heating&lt;br />- Hairdryer&lt;br />- Balcony&lt;br />- Writing desk&lt;br />- High speed wireless internet access&lt;br />- Standard modern internet access&lt;br />- In floor bathroom heating&lt;br />- Direct dial telephones&lt;br />- Security key card access&lt;/p>&lt;/td>&lt;td width=&quot;30%&quot;>&lt;p align=&quot;center&quot;>&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/University_house2.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;br />&lt;br />&lt;img src=&quot;https://secure.hotelnetwork.com.au/admin/__data/page/92/University_house3.jpg&quot; border=&quot;0&quot; alt=&quot; &quot; width=&quot;300&quot; height=&quot;200&quot; />&lt;/p>&lt;/td>&lt;/tr>&lt;/table></Text>
+									</Paragraph>
+								</SubSection>
+							</VendorMessage>
+						</VendorMessages>
+						<Position Latitude="-35.284583" Longitude="149.118934" />
+						<Address>
+							<StreetNmbr>1 Balmain Crescent</StreetNmbr>
+							<CityName>Acton</CityName>
+							<PostalCode>2601</PostalCode>
+							<StateProv>ACT</StateProv>
+						</Address>
+						<Award Provider="TheHotelNetwork" Rating="NotPreferred" />
+						<Award Provider="AAA" Rating="3.5" />
+						<ContactNumbers>
+							<ContactNumber PhoneNumber="02 6125 5211" PhoneTechType="1" />
+							<ContactNumber PhoneNumber="02 6125 5252" PhoneTechType="3" />
+						</ContactNumbers>
+					</BasicPropertyInfo>
+					<Total AmountAfterTax="153" AmountBeforeTax="139.09" CurrencyCode="AUD">
+						<Taxes>
+							<Tax Amount="13.91" Code="GST" CurrencyCode="AUD" />
+						</Taxes>
+					</Total>
+				</RoomStay>
+			</RoomStays>
+			<ResGuests>
+				<ResGuest>
+					<Profiles>
+						<ProfileInfo>
+							<UniqueID ID="G1131" ID_Context="TheHotelNetwork" Type="21" />
+							<Profile />
+						</ProfileInfo>
+					</Profiles>
+				</ResGuest>
+			</ResGuests>
+			<ResGlobalInfo>
+				<HotelReservationIDs>
+					<HotelReservationID ResID_Source="TheHotelNetwork" ResID_Type="24" ResID_Value="832953" />
+				</HotelReservationIDs>
+			</ResGlobalInfo>
+		</HotelReservation>
+	</HotelReservations>
+</OTA_HotelResRS>
