@@ -5,7 +5,8 @@ var 	express    = require('express'),
 	bodyparser = require('body-parser'),
 	xpath	   = require('xpath'),
 	dom	   = require('xmldom').DOMParser,
-	config 	   = require('./config/sample3a.json'),
+	configdefault = 'arctic.json';
+	config 	   = require('./config/' + configdefault),
         xmlserializer = require('xmldom').XMLSerializer;
 
 
@@ -13,13 +14,10 @@ var app = express();
 var port = 8080;
 
 
-//app.use(xmlbodyparser({ "normalizeTags": false } ));
 app.use(bodyparser.text({ type: 'application/xml' }));
 
 
 app.post('/:name', function(req, res) {
-         // var data = fs.readFileSync('data/HotelService-THN-Canberra/' + req.params.name + 'RS.xml').toString();
-         // res.end(data);
 
 	var orgreqdata = fs.readFileSync(config['/'+req.params.name].requestFile);
         var orgreqdoc = new dom().parseFromString(orgreqdata.toString());
@@ -61,31 +59,11 @@ app.post('/:name', function(req, res) {
 
 	});
 
-
-//        var resselect = xpath.useNamespaces({"ns1": "http://www.opentravel.org/OTA/2003/05"});
-//	var resnodes = resselect("/ns1:OTA_HotelSearchRS/@Version", resdoc);
-//	resnodes[0].value = '23445';
-	
-//	console.log(resnodes);
-/*	
-	var reqdoc = new dom().parseFromString(req.body);
-	var reqselect = xpath.useNamespaces({"ns1": "http://www.opentravel.org/OTA/2003/05"});
-	var nodes = reqselect("/ns1:OTA_HotelSearchRQ/@Version", reqdoc);
-
-*/
-//eyes.inspect(nodes[0].nodeValue);
-//console.dir(doc);
-
-	
 	
 	res.set('Content-Type', 'application/xml');
 	var xmlout = new xmlserializer().serializeToString(resdoc);
 	res.send(xmlout);
 
-//        res.sendfile(config['/'+req.params.name].responseFile);
-//        console.log(config['/'+req.params.name].responseFile);
-
-//          console.log(data);
 });
 
 
@@ -93,10 +71,27 @@ app.post('/:name', function(req, res) {
 
 
 app.get ('/', function (req, res) {
-	res.end('usage: /HotelSearch');
+	var httpout = "";
+	res.set('Content-Type', 'text/html');
+	fs.readdir('config/', function(err, files) {
+		files.forEach(function(file) {
+			if ( file == configdefault ) {
+				httpout += '<b><a href=\"config/' + file + '\">' + file + '</a></b><br>';
+				console.log(configdefault);
+			} else {	
+				httpout += '<a href=\"config/' + file + '\">' + file + '</a><br>';
+			}
+		});
+		res.end('<h1>Avaiable configs:</h1>'+httpout);
+	});
 });
 
-
+app.get ('/config/:conffile', function (req, res) {
+	config     = require('./config/'+ req.params.conffile);
+	configdefault = req.params.conffile;
+	console.log(req.params.conffile);
+	res.redirect('/');
+});
 
 http.createServer(app).listen(port);
 
