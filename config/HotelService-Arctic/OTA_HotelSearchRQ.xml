@@ -1,0 +1,16 @@
+<OTA_HotelSearchRQ Version="1" PrimaryLangID="en-us" TimeStamp="2014-07-24T08:11:00" EchoToken="HCL" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source ISOCountry="Antarctica" ISOCurrency="USD">
+			<RequestorID ID="53" ID_Context="Concur" Type="4" />
+			<RequestorID ID="87514" ID_Context="Concur" Type="21" />
+		</Source>
+	</POS>
+	<Criteria>
+		<Criterion>
+            <Position Latitude="-73.856401" Longitude="39.322932" />
+			<RefPoint>Arctic</RefPoint>
+			<Radius Distance="200" DistanceMeasure="K" UnitOfMeasureCode="1" />
+			<StayDateRange Start="2014-08-20" End="2014-08-21" />
+		</Criterion>
+	</Criteria>
+</OTA_HotelSearchRQ>

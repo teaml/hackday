@@ -1,0 +1,60 @@
+{
+"/OTA_HotelSearch" : {
+	"name": "search",
+	"requestFile": "OTA_HotelSearchRQ.xml",	
+	"responseFile": "OTA_HotelSearchRS.xml",
+	"replacers": [
+		{
+			"type": "CoordinateXPathReplacer",
+			"sourceNamespaces" : { "ns1" : "http://www.opentravel.org/OTA/2003/05"},
+			"destinationNamespaces" : { "ns1" : "http://www.opentravel.org/OTA/2003/05"},
+			"source": "/ns1:OTA_HotelSearchRQ/ns1:Criteria/ns1:Criterion/ns1:Position/@Latitude",
+			"destination": "/ns1:OTA_HotelSearchRS/ns1:Properties/ns1:Property/ns1:Position/@Latitude",
+			"replaceAll": "true"
+		},
+		{
+			"type": "CoordinateXPathReplacer",
+			"sourceNamespaces" : { "ns1" : "http://www.opentravel.org/OTA/2003/05"},
+			"destinationNamespaces" : { "ns1" : "http://www.opentravel.org/OTA/2003/05"},
+			"source": "/ns1:OTA_HotelSearchRQ/ns1:Criteria/ns1:Criterion/ns1:Position/@Longitude",
+			"destination": "/ns1:OTA_HotelSearchRS/ns1:Properties/ns1:Property/ns1:Position/@Longitude",
+			"replaceAll": "true"
+		}
+	]
+},
+"/OTA_HotelAvail" : {
+	"name": "availability",
+	"requestFile": "OTA_HotelAvailRQ.xml",	
+	"responseFile": "OTA_HotelAvailRS.xml",
+	"replacers": [
+	]
+},
+"/OTA_HotelBookingRule" : {
+	"name": "booking rule",
+	"requestFile": "OTA_HotelRookingRuleRQ.xml",	
+	"responseFile": "OTA_HotelBookingRuleRS.xml",
+	"replacers": [
+	]
+},
+"/OTA_HotelRes" : {
+	"name": "booking",
+	"requestFile": "OTA_HotelresRQ.xml",	
+	"responseFile": "OTA_HotelResRS_book.xml",
+	"replacers": [
+	]
+},
+"/OTA_Read" : {
+	"name": "itinerary",
+	"requestFile": "OTA_ReadRQ.xml",	
+	"responseFile": "OTA_HotelResRS_itin.xml",
+	"replacers": [
+	]
+},
+"/OTA_Cancel" : {
+	"name": "cancel",
+	"requestFile": "OTA_CancelRQ.xml",	
+	"responseFile": "OTA_CancelRS.xml",
+	"replacers": [
+	]
+}
+}

@@ -1,0 +1,26 @@
+{
+	"appenders": [
+		{
+			"type": "logLevelFilter",
+			"level": "DEBUG",
+			"appender" :
+			{
+				"type" : "console",
+				"layout": {
+					"type" : "pattern",
+					"pattern": "%[[%5.5p]%][%d] %m"
+				}
+			}
+		},
+		{
+			"type": "file",
+			"filename": "logs/proxy.log",
+			"maxLogSize": 20480,
+			"backups": 10,
+			"layout": {
+				"type" : "pattern",
+				"pattern": "[%5.5p][%d] %m"
+			}
+		}
+	]
+}

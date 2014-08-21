@@ -1,0 +1,76 @@
+<OTA_HotelResRQ Version="1" PrimaryLangID="EN" TimeStamp="2014-07-24T08:12:00" EchoToken="HCL" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source ISOCountry="Antarctica" ISOCurrency="USD">
+			<RequestorID ID="53" ID_Context="Concur" Type="4" />
+			<RequestorID ID="87514" ID_Context="Concur" Type="21" />
+		</Source>
+	</POS>
+	<UniqueID ID="53" ID_Context="Concur" Type="25" />
+	<HotelReservations>
+		<HotelReservation>
+			<RoomStays>
+				<RoomStay>
+					<RoomTypes>
+						<RoomType NumberOfUnits="1" />
+					</RoomTypes>
+					<RatePlans>
+						<RatePlan RatePlanCode="1243_1" />
+					</RatePlans>
+					<GuestCounts>
+						<GuestCount AgeQualifyingCode="10" Count="1" />
+					</GuestCounts>
+					<TimeSpan Start="2014-08-20" End="2014-08-21" />
+					<Guarantee>
+						<GuaranteesAccepted>
+							<GuaranteeAccepted GuaranteeTypeCode="CC">
+								<PaymentCard CardCode="VI" CardNumber="4111111111111111" ExpireDate="0816">
+									<CardHolderName>BearPolar</CardHolderName>
+									<Address>
+										<AddressLine>Arctic snow</AddressLine>
+										<CityName>Vulcano east</CityName>
+										<PostalCode>12345</PostalCode>
+										<StateProv>AK</StateProv>
+										<CountryName>Up Above in Bottom</CountryName>
+									</Address>
+								</PaymentCard>
+							</GuaranteeAccepted>
+						</GuaranteesAccepted>
+					</Guarantee>
+					<BasicPropertyInfo HotelCode="1243" />
+					<Comments>
+						<Comment>NON-SMOKING</Comment>
+					</Comments>
+				</RoomStay>
+			</RoomStays>
+			<ResGuests>
+				<ResGuest>
+					<Profiles>
+						<ProfileInfo>
+							<Profile ProfileType="1">
+								<Customer>
+									<PersonName>
+										<NamePrefix>MR</NamePrefix>
+										<GivenName>BearPolar</GivenName>
+										<Surname>Fox</Surname>
+									</PersonName>
+									<Telephone PhoneNumber="7038376100" />
+									<Email>sabre@devtravel.com</Email>
+									<Address>
+										<AddressLine>666 Devil street</AddressLine>
+										<CityName>Angel City</CityName>
+										<PostalCode>12345</PostalCode>
+										<StateProv>Jupiter state</StateProv>
+										<CountryName>terujup</CountryName>
+									</Address>
+								</Customer>
+							</Profile>
+						</ProfileInfo>
+					</Profiles>
+				</ResGuest>
+			</ResGuests>
+			<TPA_Extensions>
+				<CustomFields />
+			</TPA_Extensions>
+		</HotelReservation>
+	</HotelReservations>
+</OTA_HotelResRQ>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<OTA_HotelSearchRS EchoToken="" Version="6.000" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source />
+	</POS>
+	<Success />
+	<Properties>
+		<Property HotelCityCode="ART" HotelCode="100" HotelName="Ice Bear Inn">
+			<Address>Skii avenue</Address>
+			<TPA_Extensions>
+				<HotelImageURI>ice.jpg</HotelImageURI>
+				<HotelImageURI>ice2.jpg</HotelImageURI>
+				<StarRating>4</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-73.856401" Longitude="39.322932" />
+		</Property>
+		<Property HotelCityCode="ART" HotelCode="101" HotelName="Arcticon">
+			<Address>Polar Bear broadway</Address>
+			<TPA_Extensions>
+				<HotelImageURI>ice3.jpg</HotelImageURI>
+				<StarRating>4.5</StarRating>
+			</TPA_Extensions>
+			<Position Latitude="-73.856664" Longitude="39.321891" />
+		</Property>
+	
+		
+	</Properties>
+</OTA_HotelSearchRS>

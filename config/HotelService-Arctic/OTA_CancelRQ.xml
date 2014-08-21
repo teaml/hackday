@@ -1,0 +1,9 @@
+<OTA_CancelRQ Version="1" CancelType="Cancel" PrimaryLangID="" TimeStamp="2014-07-24T08:12:00" EchoToken="HCL" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<POS>
+		<Source ISOCountry="Antarctica" ISOCurrency="USD">
+			<RequestorID ID="53" ID_Context="Concur" Type="4" />
+			<RequestorID ID="87514" ID_Context="Concur" Type="21" />
+		</Source>
+	</POS>
+	<UniqueID ID="832953" Type="14" />
+</OTA_CancelRQ>
