@@ -1,0 +1,6 @@
+{
+"/krezac" : {
+	"name": "proxy test",
+	"proxyTarget" : "http://atrey.karlin.mff.cuni.cz:8080/"
+}
+}

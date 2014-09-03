@@ -14,7 +14,7 @@
 		},
 		{
 			"type": "file",
-			"filename": "logs/proxy.log",
+			"filename": "logs/mockserver.log",
 			"maxLogSize": 20480,
 			"backups": 10,
 			"layout": {

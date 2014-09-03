@@ -1,0 +1,10 @@
+{
+	"dataRootDir" : ".",
+	"log4jsConfigFile" : "log4js.json",
+	"dataConfigFileName" : "config.json",
+	"serverPort" : 8080,
+	"chroot" : {
+		"dir" : "/home/ec2-user/hackday/data",
+		"user" : "nobody"
+	}
+}
