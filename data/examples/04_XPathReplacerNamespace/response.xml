@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reservation  xmlns="http://www.opentravel.org/OTA/2003/05">
+	<Dates start='1987-01-12'/>
+</Reservation>

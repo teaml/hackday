@@ -1,0 +1,13 @@
+{
+	"xml1" : {
+		"requestFile" : "request.xml",
+		"responseFile" : "response.xml",
+		"replacers": [
+			{
+				"type": "CoordinateXPathReplacer",
+				"source": "/Search/@position",
+				"destination": "/Hotel/@position"
+			}
+		]
+	}
+}

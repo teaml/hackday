@@ -1,0 +1,4 @@
+{
+	"xml1" :  { "responseFile" : "first.xml"},
+	"xml2" :  { "responseFile" : "second.xml"}
+}

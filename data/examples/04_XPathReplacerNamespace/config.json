@@ -1,0 +1,13 @@
+{
+	"xml1" : {
+		"responseFile" : "response.xml",
+		"replacers": [
+			{
+				"type": "XPathReplacer",
+				"source": "/Search/@start",
+				"destinationNamespaces" : { "ns1" : "http://www.opentravel.org/OTA/2003/05"},
+				"destination": "/ns1:Reservation/ns1:Dates/@start"
+			}
+		]
+	}
+}

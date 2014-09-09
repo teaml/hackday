@@ -1,0 +1,12 @@
+{
+	"xml1" : {
+		"responseFile" : "response.xml",
+		"replacers": [
+			{
+				"type": "XPathReplacer",
+				"source": "/Search/@start",
+				"destination": "/Reservation/@start"
+			}
+		]
+	}
+}
