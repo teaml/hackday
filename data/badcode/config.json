@@ -1,0 +1,8 @@
+{
+	"434" :  { 
+		"responseFile" : "out.txt",
+		"contentType" : "text/plain",
+		"returnCode" : 434
+	},
+	"xml2" :  { "responseFile" : "second.xml"}
+}
